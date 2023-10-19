@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated College",
+    location: "Georgian College",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a 3 year electrical engineering technology diploma",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2011",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated University",
+    location: "Ottawa University",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I graduated with a Civil Engineering Degree with a double major in Structural Engineering and Project Management",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2014",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Drone Technician and Operator",
+    location: "Drone Unit",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "With over 75 productions worked to date, ",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2014 - present",
+  },
+  {
+    title: "Developer",
+    location: "Drone Unit",
+    description:
+      "For the last 3 years, Ive accumilated hundreds of hours on udemy courses, and even more hours on youtube tutorials. I started with what I knew, C++ arduino code, moved to Javascript, then to Flutter, React and now NextJS",
+    icon: React.createElement(FaReact),
+    date: "2020 - present",
   },
 ] as const;
 
@@ -64,7 +72,7 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "A developer friendly website",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
