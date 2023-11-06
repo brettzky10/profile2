@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import clothingstoreImg from "@/public/clothingstoreimg.png";
+import archcompanyImg from "@/public/archcompanyimg.png";
+import chatappImg from "@/public/chatappimg.png";
 
 export const links = [
   {
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Drone Technician and Operator",
     location: "Drone Unit",
     description:
-      "With over 75 productions worked to date, ",
+      "More than 75 productions worked to date",
     icon: React.createElement(FaReact),
     date: "2014 - present",
   },
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Developer",
     location: "Drone Unit",
     description:
-      "For the last 3 years, Ive accumilated hundreds of hours on udemy courses, and even more hours on youtube tutorials. I started with what I knew, C++ arduino code, moved to Javascript, then to Flutter, React and now NextJS",
+      "For the last 3 years, Ive accumilated hundreds of hours on Udemy courses, and even more hours on youtube tutorials. I started with what I knew, C++ for Arduino, moved to Javascript, then to Flutter, Nuxt3 and now React/NextJS",
     icon: React.createElement(FaReact),
     date: "2020 - present",
   },
@@ -70,25 +70,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Clothing Store",
     description:
-      "A developer friendly website",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A clothing store built mockup using Printful API to bring in real products",
+    tags: ["React", "Typescript", "Next.js", "Tailwind"],
+    imageUrl: clothingstoreImg,
+    link: "https://outdoor-store-hjlx2igkf-brettzky10.vercel.app/"
   },
   {
-    title: "rmtDev",
+    title: "Arcitectural Website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A website for an arcitectural brand that showcases parallax and other packages.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: archcompanyImg,
+    link: "https://architecture-company-3heg3jfvk-brettzky10.vercel.app/"
   },
   {
-    title: "Word Analytics",
+    title: "AI Chat App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A AI chat app that allows users to talk in any language and receive chat in any language with an ai extension translating.",
+    tags: ["React", "Next.js", "Stripe", "Tailwind", "Firebase"],
+    imageUrl: chatappImg,
+    link: "https://github.com/brettzky10/chat-ai"
   },
 ] as const;
 
@@ -97,19 +100,16 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Arduino",
+  "Flutter",
+  "Nuxt 3",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Planetscale",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
